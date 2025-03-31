@@ -29,7 +29,7 @@
   font-size: 18px;
   background-image: var(--cover-image);
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: cover;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -211,13 +211,6 @@
   margin: 0;
   padding-right: 50px;
   max-width: 364px;
-}
-
-@media (max-width: 668px) {
-  .header__text {
-    max-width: 96%;
-    margin: 0 auto;
-  }
 }
 
 @media (min-width: 768px) {
